@@ -1,0 +1,7 @@
+so here i will intstruct you on how to create a .bat file for fpPS4 emulator, first made a .txt file, open and copy and paste
+@ECHO OFF
+cd /D "%~dp0"
+fpPS4 -e >file path to eboot.bin goes here<
+PAUSE
+
+save as the name of your game.bat, for encoding use ANSI and that is all you do to get games running.
